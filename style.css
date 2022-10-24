@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: rgb(192, 192, 192);
+}
+.wrapper{  
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    height: 100%;
+}
+
+#box-1{
+    background-color: rgb(143, 143, 143);
+    width: 600px;
+    height: 65px;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#box-1 span{
+    left: 0;
+    padding: 23px;
+}
+
+#box-1 i{
+    right: 0px;
+    padding: 23px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-size: 15px;
+}
+
+#desc-1{
+    background-color: rgb(131, 131, 131);
+    width: 600px;
+    display: none;
+}
+
+#desc-1 p{
+    padding: 23px;
+}
+
+#box-2{
+    background-color: rgb(143, 143, 143);
+    width: 600px;
+    height: 65px;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#box-2 span{
+    left: 0;
+    padding: 23px;
+}
+
+#box-2 i{
+    right: 0px;
+    padding: 23px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-size: 15px;
+}
+
+#desc-2{
+    background-color: rgb(131, 131, 131);
+    width: 600px;
+    display: none;
+}
+
+#desc-2 p{
+    padding: 23px;
+}
+
+#box-3{
+    background-color: rgb(143, 143, 143);
+    width: 600px;
+    height: 65px;
+    display: block;
+}
+
+#box-3 span{
+    left: 0;
+    padding: 23px;
+}
+
+#box-3 i{
+    right: 0px;
+    padding: 23px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-size: 15px;
+}
+
+#desc-3{
+    background-color: rgb(131, 131, 131);
+    width: 600px;
+    display: none;
+}
+
+#desc-3 p{
+    padding: 23px;
+}
